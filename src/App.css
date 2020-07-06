@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(253, 226, 213);
+}
+
+.contain {
+  width: 100%;
+}
+
+.search {
+  margin: 1.5rem 0.5rem;
+}
+.video {
+  width: 65%;
+  float: left;
+  margin: 0.5rem;
+}
+.video-list {
+  margin: 0.5rem;
+  width: 30%;
+  float: left;
+}
+
+@media only screen and (max-width: 1000px) {
+  .video {
+    width: 100%;
+    float: left;
+    margin: 0.5rem;
+  }
+  .video-list {
+    margin: 0.5rem;
+    width: 100%;
+    float: left;
+  }
+}
